@@ -1,100 +1,189 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HiveMaze — Eliminazione dell'account e dei dati</title>
-<style>
-  :root { --fg:#1a1a1a; --muted:#5b5b5b; --bg:#ffffff; --accent:#b8860b; --line:#e2e2e2; }
-  @media (prefers-color-scheme: dark) {
-    :root { --fg:#e8e8e8; --muted:#a8a8a8; --bg:#141414; --accent:#e3b341; --line:#333; }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin:0; padding:0 16px; background:var(--bg); color:var(--fg);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  }
-  main { max-width:44rem; margin:0 auto; padding:3rem 0 4rem; }
-  h1 { font-size:1.6rem; line-height:1.3; margin:0 0 .25rem; }
-  h2 { font-size:1.15rem; margin:2.5rem 0 .75rem; padding-top:1.25rem; border-top:1px solid var(--line); }
-  h3 { font-size:1rem; margin:1.5rem 0 .5rem; }
-  .sub { color:var(--muted); margin:0 0 2rem; }
-  ul { padding-left:1.25rem; }
-  li { margin:.35rem 0; }
-  a { color:var(--accent); }
-  code { background:rgba(128,128,128,.15); padding:.1em .35em; border-radius:3px; font-size:.9em; }
-  .box { border:1px solid var(--line); border-left:3px solid var(--accent); padding:1rem 1.25rem; margin:1.5rem 0; border-radius:4px; }
-  footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line); color:var(--muted); font-size:.875rem; }
-  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.95rem; }
-  th, td { text-align:left; padding:.5rem .6rem; border-bottom:1px solid var(--line); vertical-align:top; }
-  th { font-weight:600; }
-  .lang-sep { margin-top:4rem; padding-top:2rem; border-top:3px double var(--line); }
-</style>
-</head>
-<body>
-<main>
-
-<h1>HiveMaze — Eliminazione dell'account e dei dati</h1>
-<p class="sub">
-  Applicazione: <strong>HiveMaze</strong> · Sviluppatore: <strong>[NOME SVILUPPATORE]</strong><br>
-  Ultimo aggiornamento: [DATA]
-</p>
+    <td>Storico</td>
+    <td>Il registro dei movimenti della valuta di gioco</td>
+  </tr>
+</table>
 
 <p>
-  Questa pagina spiega come richiedere l'eliminazione del tuo account HiveMaze e dei dati
-  associati, quali dati vengono eliminati, quali vengono conservati e per quanto tempo.
+  L'eliminazione è <strong>irreversibile</strong>: i progressi non possono essere recuperati
+  dopo la conferma.
 </p>
 
-<h2>Come richiedere l'eliminazione</h2>
+<h2>Dati conservati dopo l'eliminazione</h2>
 
-<p>Invia un'email a <strong>[INDIRIZZO EMAIL]</strong> con:</p>
+<table>
+  <tr><th>Dato</th><th>Per quanto</th><th>Perché</th></tr>
+  <tr>
+    <td>Log tecnici del server, che possono contenere il nome utente</td>
+    <td>Fino a <strong>10 giorni</strong>, poi cancellati automaticamente</td>
+    <td>Diagnostica e sicurezza; non vengono usati per altri scopi</td>
+  </tr>
+  <tr>
+    <td>Corrispondenza relativa alla richiesta di eliminazione</td>
+    <td>Fino a <strong>6 mesi</strong></td>
+    <td>Prova dell'avvenuta evasione della richiesta</td>
+  </tr>
+</table>
+
+<h2>Dati gestiti da terze parti</h2>
+
+<p>
+  HiveMaze mostra video pubblicitari facoltativi tramite <strong>Google AdMob</strong>. I dati
+  raccolti da Google in quel contesto (fra cui l'identificativo pubblicitario del dispositivo)
+  <strong>non sono in nostro possesso</strong> e non possiamo eliminarli al posto tuo. Puoi
+  gestirli direttamente:
+</p>
 
 <ul>
-  <li>oggetto: <code>Richiesta eliminazione account HiveMaze</code>;</li>
-  <li>il <strong>nome utente</strong> con cui accedi a HiveMaze;</li>
-  <li>il <strong>nome visualizzato</strong> che compare nella classifica del gioco.</li>
+  <li>
+    sul dispositivo Android: <em>Impostazioni → Google → Annunci</em>, dove puoi eliminare o
+    reimpostare l'identificativo pubblicitario;
+  </li>
+  <li>
+    tramite i controlli privacy di Google:
+    <a href="https://myaccount.google.com/data-and-privacy">myaccount.google.com/data-and-privacy</a>.
+  </li>
 </ul>
 
 <p>
-  Riceverai una risposta entro <strong>[N] giorni lavorativi</strong>. Per proteggere il tuo
-  account da richieste di terzi, prima di procedere potremmo chiederti di confermare la
-  titolarità dell'account.
+  Non condividiamo il tuo nome utente, il tuo nome visualizzato o i tuoi progressi di gioco con
+  Google né con altri soggetti terzi.
+</p>
+
+<h2>Contatti</h2>
+
+<p>
+  Per qualsiasi domanda su questa procedura o sul trattamento dei tuoi dati:
+  <strong>whiterhombuses@gmail.com</strong>.<br>
+  Informativa sulla privacy: <a href="https://pieringro.github.io/DocFlyingInCriptoklon/privacy_HiveMaze.html">https://pieringro.github.io/DocFlyingInCriptoklon/privacy_HiveMaze.html</a>.
+</p>
+
+<!-- ============================ ENGLISH ============================ -->
+
+<div class="lang-sep" lang="en">
+
+<h1>HiveMaze — Account and data deletion</h1>
+<p class="sub">
+  Application: <strong>HiveMaze</strong> · Developer: <strong>PierIngro</strong><br>
+  Last updated: 2026-09-19
+</p>
+
+<p>
+  This page explains how to request deletion of your HiveMaze account and its associated data,
+  which data is deleted, which data is retained, and for how long.
+</p>
+
+<h2>How to request deletion</h2>
+
+<p>Send an email to <strong>whiterhombuses@gmail.com</strong> including:</p>
+
+<ul>
+  <li>subject: <code>HiveMaze account deletion request</code>;</li>
+  <li>the <strong>username</strong> you use to sign in to HiveMaze;</li>
+  <li>the <strong>display name</strong> shown on the in-game leaderboard.</li>
+</ul>
+
+<p>
+  You will receive a reply within <strong>10 business days</strong>. To protect your account
+  from third-party requests, we may ask you to confirm ownership before proceeding.
 </p>
 
 <div class="box">
-  <h3 style="margin-top:0">Se giochi senza aver creato un account</h3>
+  <h3 style="margin-top:0">If you play without an account</h3>
   <p style="margin-bottom:0">
-    HiveMaze può essere giocato senza registrarsi: in questo caso il progresso è legato a un
-    identificativo casuale generato e conservato dall'app sul tuo dispositivo. Poiché non
-    esistono né nome utente né password, <strong>non possiamo verificare che un account non
-    registrato appartenga a te</strong> e non possiamo quindi eliminarlo su richiesta via email.
-    Puoi eliminare i dati presenti sul tuo dispositivo disinstallando l'app; i dati conservati
-    sui nostri server vengono eliminati automaticamente dopo <strong>[N] mesi di
-    inattività</strong>.
+    HiveMaze can be played without registering: in that case your progress is tied to a random
+    identifier generated and stored by the app on your device. Because there is no username and
+    no password, <strong>we cannot verify that an unregistered account belongs to you</strong>
+    and therefore cannot delete it on email request. You can remove the data held on your device
+    by uninstalling the app; data held on our servers is deleted automatically after
+    <strong>6 months of inactivity</strong>.
   </p>
 </div>
 
-<h2>Dati eliminati</h2>
+<h2>Data that is deleted</h2>
 
-<p>
-  Con l'eliminazione dell'account rimuoviamo <strong>definitivamente</strong> dai nostri server:
-</p>
+<p>When your account is deleted, we <strong>permanently</strong> remove from our servers:</p>
 
 <table>
-  <tr><th>Categoria</th><th>Dati</th></tr>
+  <tr><th>Category</th><th>Data</th></tr>
   <tr>
-    <td>Identità</td>
-    <td>Identificativo del giocatore, nome utente, password (conservata solo in forma cifrata),
-        nome visualizzato, identificativo del dispositivo, data di creazione dell'account</td>
+    <td>Identity</td>
+    <td>Player identifier, username, password (stored only in encrypted form), display name,
+        device identifier, account creation date</td>
   </tr>
   <tr>
-    <td>Progressi di gioco</td>
-    <td>Valuta di gioco (Denaro e Ticket), livelli dei nodi, potenziamenti, mappa della griglia,
-        Sciamature effettuate, Feromoni, slot acceleratore acquistati, potenziamenti temporanei
-        attivi</td>
+    <td>Game progress</td>
+    <td>In-game currency (Cash and Tickets), node levels, upgrades, grid map, Swarms performed,
+        Pheromones, purchased accelerator slots, active temporary boosters</td>
   </tr>
   <tr>
-    <td>Classifica</td>
-    <td>La tua posizione e il tuo nome visualizzato scompaiono dalla classifica pubblica</td>
+    <td>Leaderboard</td>
+    <td>Your rank and display name are removed from the public leaderboard</td>
   </tr>
   <tr>
+    <td>History</td>
+    <td>The in-game currency transaction log</td>
+  </tr>
+</table>
+
+<p>
+  Deletion is <strong>irreversible</strong>: progress cannot be recovered once confirmed.
+</p>
+
+<h2>Data retained after deletion</h2>
+
+<table>
+  <tr><th>Data</th><th>Retention</th><th>Reason</th></tr>
+  <tr>
+    <td>Server technical logs, which may contain the username</td>
+    <td>Up to <strong>10 days</strong>, then automatically erased</td>
+    <td>Diagnostics and security; not used for any other purpose</td>
+  </tr>
+  <tr>
+    <td>Correspondence about the deletion request</td>
+    <td>Up to <strong>6 months</strong></td>
+    <td>Evidence that the request was fulfilled</td>
+  </tr>
+</table>
+
+<h2>Data handled by third parties</h2>
+
+<p>
+  HiveMaze shows optional rewarded video ads through <strong>Google AdMob</strong>. Data
+  collected by Google in that context (including the device advertising identifier) is
+  <strong>not in our possession</strong> and we cannot delete it on your behalf. You can manage
+  it directly:
+</p>
+
+<ul>
+  <li>
+    on your Android device: <em>Settings → Google → Ads</em>, where you can delete or reset the
+    advertising identifier;
+  </li>
+  <li>
+    through Google's privacy controls:
+    <a href="https://myaccount.google.com/data-and-privacy">myaccount.google.com/data-and-privacy</a>.
+  </li>
+</ul>
+
+<p>
+  We do not share your username, display name or game progress with Google or any other third
+  party.
+</p>
+
+<h2>Contact</h2>
+
+<p>
+  For any question about this procedure or about how your data is handled:
+  <strong>whiterhombuses@gmail.com</strong>.<br>
+  Privacy policy: <a href="https://pieringro.github.io/DocFlyingInCriptoklon/privacy_HiveMaze.html">https://pieringro.github.io/DocFlyingInCriptoklon/privacy_HiveMaze.html</a>.
+</p>
+
+</div>
+
+<footer>
+  HiveMaze — PierIngro
+</footer>
+
+</main>
+</body>
+</html>
